@@ -1,0 +1,130 @@
+i
+{
+    font-size: 22px;
+    padding: 10px 10px;
+    background: #1e202b;
+    color: #009ad8;
+    border-radius: 50%;
+}
+i:hover
+{
+    
+
+    font-size: 22px;
+    padding: 10px 10px;
+    background: #009ad8;
+    color: white;
+    border-radius: 50%;
+cursor: pointer;
+transition: 1s;
+}
+
+#home
+{
+    background-image: url(../image/banner.png);
+    background-position: center;
+    background-size: contain;
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 7% 0;
+}
+
+section
+{
+    background-color: #1e202b;
+}
+
+footer
+{
+    padding: 5% 0;
+    background-color: #262936;
+}
+
+#copy
+{
+    margin-top: 30px;
+    color: #bfc1c8;
+}
+
+#sub
+{
+    border-radius: 30px;
+}
+#subbtn
+{
+    position: absolute;
+    top: 10px;
+    left: 85%;
+    border-radius: 30px;
+    width: 12%;
+    color: white;
+}
+
+#findbtn
+{
+    position: absolute;
+    top: 10px;
+    left: 88%;
+    border-radius: 30px;
+    width: 10%;  
+    color: white;
+}
+#search
+{
+    border-radius: 30px;
+}
+
+ 
+
+.item
+{
+    margin: 8% 0px;
+    background-color:rgb(77, 76, 76);
+    color: white;
+}
+
+.headerWeather
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.data
+{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.active
+{
+    margin: 4px;
+    border: solid 1px #009ad8;
+    padding: 3px;
+    border-radius: 30px;
+    color: #009ad8;
+    
+}
+
+.nav-link
+{
+    margin: 4px;
+    padding: 3px;
+
+   
+    
+}
+.nav-link:hover
+{
+    margin: 4px;
+    border: solid 1px #009ad8;
+    padding: 3px;
+    border-radius: 30px;
+    color: #009ad8;
+    
+}
+
+
+#weatherImg
+{
+    height: 50px;
+    width: 50px;
+}

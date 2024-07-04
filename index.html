@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="image/logo.png" type="image/icon type">
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- NAVBAR SECTION -->
+<nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+        <img src="image/logo.png" alt="">
+        <h3 class="mx-2 text-white">Weather</h3>
+        
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse my-4 navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                   </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                   </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="#">Live cameras</a>
+                   </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                   </li>
+                   <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                   </li>
+                 
+                   
+              </ul>
+
+         </div>
+    </div>
+</nav>
+   
+
+    <!-- Body Section -->
+
+    <section id="home" class="">
+        <div class="container position-relative">
+            <input id="search" placeholder="Find Your Location..." type="text" class="w-100 form-control py-3">
+            <button id="findbtn" class="btn btn-info  ">Find</button>
+            <div class="row rowData">
+                
+             
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-8 position-relative">
+                    <input id="sub" type="text" placeholder="Enter Your Email To Subscribe..."
+                        class="form-control py-3">
+                    <button id="subbtn" class="btn btn-info ">Subscribe</button>
+                    <p id="copy">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+
+                <div class="col-4">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google-plus"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </footer>
+    <!-- Script Link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+
+</html>
